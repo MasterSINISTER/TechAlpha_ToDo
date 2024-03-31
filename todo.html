@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List !</title>
+    <link rel="stylesheet" href="todoStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://kit.fontawesome.com/6333097c32.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <section id="app-section">
+        <form id="app-form">
+            <h1 class="todo-heading">Any Task ?</h1>
+            <input type="text" id="app-form-input" placeholder="What needs to be done?">
+            <div class="button-container">
+            <button id="add-task" type="button">
+                Add Task
+            </button>
+        </div>
+        <div class="show-msg">
+            <p id="msg-display"></p>
+        </div>
+        </form>
+    </section>
+    <br>
+
+
+    <section class="app-view">
+        <h1 class="view-heading">
+            Task Left
+        </h1>
+        <ul id="taskList">
+            
+        </ul>
+    </section>
+    
+    <script src="todoJs.js"></script>
+</body>
+</html>
